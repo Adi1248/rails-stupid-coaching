@@ -1,0 +1,16 @@
+<h1>Stupid Coaching</h1>
+<!-- <p>Find me in app/views/pages/answer.html.erb</p> -->
+<div class = "blockquote">
+  <p><%= params[:question].capitalize%></p>
+  <footer class="blockquote-footer"><strong><%= "- You"%></strong></footer>
+</div>
+
+
+<div class = "blockquote">
+ <p><%= @answer%></p>
+  <footer class="blockquote-footer"><strong><%= "- Your coach"%></strong></footer>
+</div>
+
+ <%= link_to "Ask a new question", ask_path %>
+
+
